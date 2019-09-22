@@ -23,12 +23,80 @@
     	}
     },
     {
+        "path" : "pages/registLogin/registLogin",
+        "style" : {
+          "navigationBarTitleText": "电影"
+        }
+    },
+    {
+        "path" : "pages/meInfo/meInfo",
+        "style" : {
+          "navigationBarTitleText": "电影"
+        }
+    },
+    {
+    	"path": "pages/cover/cover",
+    	"style": {
+    		"navigationBarTitleText": "封面"
+    	}
+    },
+    {
+        "path" : "pages/meFace/meFace",
+        "style" : {
+            "navigationBarTextStyle" : "white",
+            "navigationBarTitleText" : "头像上传",
+            "navigationBarBackgroundColor" : "#000000"
+        }
+    },
+    {
+        "path" : "pages/faceCrop/faceCrop",
+        "style" : {
+            "navigationBarTextStyle" : "white",
+            "navigationBarTitleText" : "头像剪裁",
+            "navigationBarBackgroundColor" : "#000000"
+        }
+    },
+    {
+        "path" : "pages/meNickname/meNickname",
+        "style" : {
+            "navigationBarTextStyle" : "white",
+            "navigationBarTitleText" : "修改昵称",
+            "navigationBarBackgroundColor" : "#ffd655"
+        }
+    },
+    {
+        "path" : "pages/meBirthday/meBirthday",
+        "style" : {
+            "navigationBarTextStyle" : "white",
+            "navigationBarTitleText" : "修改生日",
+            "navigationBarBackgroundColor" : "#ffd655"
+        }
+    },
+    {
+        "path" : "pages/sex/sex",
+        "style" : {
+            "navigationBarTextStyle" : "white",
+            "navigationBarTitleText" : "性别",
+            "navigationBarBackgroundColor" : "#ffd655"
+        }
+    },
+    {
     	"path": "pages/movie/movie",
     	"style": {
-    		"navigationBarTitleText": "电影"
+        "navigationBarTitleText": "电影",
+    		"app-plus" : {
+    		    "titleNView" : {
+    		        "type" : "transparent",
+    		        "buttons" : [
+    		            {
+    		                "type" : "share"
+    		            }
+    		        ]
+    		    }
+    		}
     	}
     }
-	],
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",

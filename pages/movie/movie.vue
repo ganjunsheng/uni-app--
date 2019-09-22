@@ -167,7 +167,7 @@
 				}
 			});
 			
-			获取导演
+			// 获取导演
 			uni.request({
 				url: serverUrl + '/search/staff/' + trailerId + '/1' + '&qq=1105254074',
 				method: "POST",
@@ -175,7 +175,6 @@
 					// 获取真实数据之前，务必判断状态是否为200
 					if (res.data.status == 200) {
 						me.directorArray = res.data.data;
-						// debugger;
 					}
 				}
 			});
